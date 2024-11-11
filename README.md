@@ -14,27 +14,11 @@ SQL queries and their key insights
 ![image](https://github.com/user-attachments/assets/118599ad-e9d7-41ee-9627-46e8ba1dd1c6)
 
 
--- find the rating and show id from movies that came out before the year 2000 
+![image](https://github.com/user-attachments/assets/92af35bd-a6ea-4843-95db-d1920c9aac94)
 
-SELECT DISTINCT rating, show_id, release_year 
-FROM Netflix_dataset nd 
-WHERE release_year < 2000
-ORDER BY show_id;
 
--- Join the dataset with itself and use parts from both to find the title and directore for movies that came out between 1990 and 1993
+![image](https://github.com/user-attachments/assets/0acf25bc-ccf8-40d7-a5e9-1323d5490f04)
 
-SELECT nd.title, nd2.director, nd2.release_year 
-FROM Netflix_dataset nd LEFT JOIN Netflix_dataset nd2 
-	ON nd.show_id = nd2.show_id 
-WHERE nd.release_year BETWEEN "1990" AND "1993"
-ORDER BY nd2.release_year ASC;
 
--- use a cte to find all info on tv shows from india that came out before 2011
+![image](https://github.com/user-attachments/assets/853da16a-179e-4ae6-a733-ada12fef2ff0)
 
-WITH cte AS (
-SELECT *
-FROM Netflix_dataset nd 
-WHERE type = "TV Show" AND country = "India" AND release_year < 2011
-)
-SELECT *
-FROM cte;
