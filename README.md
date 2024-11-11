@@ -16,22 +16,28 @@ SQL queries and their key insights
 
 This querie allowed me to find every single directors longest work that was PG-13
 
+Which showed me each distinct directors longest PG-13 movie
 
 ![image](https://github.com/user-attachments/assets/118599ad-e9d7-41ee-9627-46e8ba1dd1c6)
 
 This querie allowed me to find the average release year for every entry
 
+This querie gave me an average of 2014 and the release year
 
 ![image](https://github.com/user-attachments/assets/92af35bd-a6ea-4843-95db-d1920c9aac94)
 
 This querie allowed me to find the rating and show id for every entry with a release year before the year 2000
 
+A more broad querie but showed me a large range of raitings and show id's
 
 ![image](https://github.com/user-attachments/assets/0acf25bc-ccf8-40d7-a5e9-1323d5490f04)
 
 This querie allowed me to find the title and director of every entry between the years 1990 and 1993 inclusivly 
 
+Which showed me 90 different entires that came out in that span of time
 
 ![image](https://github.com/user-attachments/assets/853da16a-179e-4ae6-a733-ada12fef2ff0)
 
 This querie allowed me to find all tv shows from india tha came out before the year 2011
+
+Which showed me that there were only 4 Tv shows that came from india before 2011
