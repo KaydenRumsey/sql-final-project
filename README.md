@@ -11,11 +11,8 @@ SQL queries and their key insights
 ![image](https://github.com/user-attachments/assets/fea56b5b-48a7-4559-9a53-c43befe8b41a)
 
 
--- use a subquerie to find the average release_year
+![image](https://github.com/user-attachments/assets/118599ad-e9d7-41ee-9627-46e8ba1dd1c6)
 
-SELECT DISTINCT (SELECT ROUND(AVG(release_year),0) 
-		FROM Netflix_dataset nd) AS avg_release_year
-FROM Netflix_dataset nd; 
 
 -- find the rating and show id from movies that came out before the year 2000 
 
