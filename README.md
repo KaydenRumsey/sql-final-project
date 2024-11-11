@@ -1,4 +1,5 @@
 Project Goals
+
 -Find out as much information as I can from a Netflix dataset using the skills I have learned 
 
 Table and relationships
