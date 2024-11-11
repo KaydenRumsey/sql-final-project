@@ -8,12 +8,8 @@ Table and relationships
 
 SQL queries and their key insights
 
--- find each directors longest movie and its rating
+![image](https://github.com/user-attachments/assets/fea56b5b-48a7-4559-9a53-c43befe8b41a)
 
-SELECT MAX(duration) AS longest_movie , director, rating 
-FROM Netflix_dataset nd 
-WHERE director IS NOT NULL AND rating = "PG-13"
-GROUP BY director;
 
 -- use a subquerie to find the average release_year
 
