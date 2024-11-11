@@ -3,6 +3,7 @@ Project Goals
 -Find out as much information as I can from a Netflix dataset using the skills I have learned 
 
 Table and relationships
+
 ![Capture](https://github.com/user-attachments/assets/579702d6-4498-4e5b-911f-7f403e344fe5)
 
 SQL queries and their key insights
